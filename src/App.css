@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1380px;
+  min-width: 400px;
+  margin: 0 auto;
+
+  text-align: center;
+  background-color: rgb(53, 43, 54);
+}
+h1{
+  font-size: 2.6em;
+  color: #fff;
+}
+h2, h4, h3 ,ul li ,p{
+  color: #fff;
+}
+ul li {
+  list-style: none;
+}
+
+
+.Container-image-head-rick-and-morty{
+  background-image: url(../src/assets/Head.jpg);
+  min-width: 200px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.container-footer{
+  background-color: rgb(35, 30, 35);
+  min-width: 100px;
+  min-height: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 
+}
+.container-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5px;
+}
+.container-input input{
+  width: 23em;
+  height: 25px;
+  border-radius: 10px;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5em  1em;
+  margin-top: 10px;
+  font-size: 1.2em; 
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f8e8e8;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+.container-location{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.container-location 
+ul,
+li,
+img{
+  background-color: rgb(95, 75, 48);
+  position: relative;
+  box-sizing: border-box;
+  bottom: 25px;
+  border-radius: 30px 30px 10px 10px;
+}
+.container-location  ul, li{
+  margin: 15px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.container-location li , p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
